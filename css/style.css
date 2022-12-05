@@ -37,6 +37,20 @@
    
 }
 
+.big-main-container{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    height: 1000px;
+}
+
+.big-main-container>*{
+    border: 3px dashed black;
+   
+}
+
 /* Header */
 
 
@@ -69,7 +83,6 @@ header{
 
 .blue-section{
     background-color: #00008b;
-    height: 500px;
 }
 
 
@@ -83,7 +96,6 @@ header{
 
 .white-section{
     background-color: white;
-    height: 500px;
 }
 
 .blue-box{
@@ -102,8 +114,18 @@ header{
 
 .grey-section{
     background-color: #d3d3d3;
-    height: 500px;
 }
 
 /*   SECTION 4 (Stessi valori Section 2) White */
 
+/*    SECTION 5 (Big grey) */
+
+.big-grey-section{
+    background-color: #d3d3d3;
+}
+
+.big-green-box{
+    background-color: #228b22;
+    width: 100%;
+    height: 800px;
+}
