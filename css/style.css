@@ -63,6 +63,20 @@
     border: 3px dashed black;
 }
 
+.footer-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #7fffd4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container>*{
+    border: 3px dashed black;
+}
+
 /* Header */
 
 
@@ -169,3 +183,21 @@ header{
     width: 25%;
     height: 600px;
 }
+
+/*   FOOTER */
+
+footer {
+    background-color: #23272a;
+    height: 90px;
+    padding-top: 20px;
+}
+
+.footer-logo,
+.footer-button {
+    background-color: #ffb6c1;
+    width: 70px;
+    height: 35px;
+    justify-content: center;
+    padding: 7px;
+}
+
