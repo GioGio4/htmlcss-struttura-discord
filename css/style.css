@@ -17,19 +17,32 @@
     height: 90px;
 }
 
+.header-container>*{
+    border: 3px dashed black;
+    background-color: goldenrod;
+    height: 35px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    height: 450px;
+}
+
+.main-container>*{
+    border: 3px dashed black;
+   
+}
+
 /* Header */
 
 
 header{
     background-color: #add8e6;
     height: 90px;
-}
-
-
-.header-container>*{
-    border: 3px dashed black;
-    background-color: goldenrod;
-    height: 35px;
 }
 
 
@@ -52,6 +65,7 @@ header{
 
 /* Main */
 
+            /*SECTION 1  */
 .blue-section{
     background-color: blue;
     height: 450px;
