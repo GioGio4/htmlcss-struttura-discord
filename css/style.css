@@ -29,7 +29,7 @@
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
-    height: 450px;
+    height: 500px;
 }
 
 .main-container>*{
@@ -65,14 +65,34 @@ header{
 
 /* Main */
 
-            /*SECTION 1  */
+            /*SECTION 1 (Blue) */
+
 .blue-section{
-    background-color: blue;
-    height: 450px;
+    background-color: #00008b;
+    height: 500px;
+}
+
+.white-section{
+    background-color: white;
+    height: 500px;
 }
 
 .center-box{
     background-color: hotpink;
-    width: 500px;
-    height: 300px;
+    width: 900px;
+    height: 400px;
+}
+
+/*        SECTION 2 (White) */
+
+.blue-box{
+    background-color: #1e90ff;
+    width: 60%;
+    height: 400px;
+}
+
+.pink-box{
+    background-color: #ffc0cb;
+    width: 40%;
+    height: 400px;
 }
