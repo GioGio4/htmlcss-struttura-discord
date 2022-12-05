@@ -72,10 +72,6 @@ header{
     height: 500px;
 }
 
-.white-section{
-    background-color: white;
-    height: 500px;
-}
 
 .center-box{
     background-color: hotpink;
@@ -84,6 +80,11 @@ header{
 }
 
 /*        SECTION 2 (White) */
+
+.white-section{
+    background-color: white;
+    height: 500px;
+}
 
 .blue-box{
     background-color: #1e90ff;
@@ -96,3 +97,13 @@ header{
     width: 40%;
     height: 400px;
 }
+
+/*  SECTION 3 (Grey) */
+
+.grey-section{
+    background-color: #d3d3d3;
+    height: 500px;
+}
+
+/*   SECTION 4 (Stessi valori Section 2) White */
+
