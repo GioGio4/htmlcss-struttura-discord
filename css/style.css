@@ -1,6 +1,55 @@
+/* Reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+
+/* Utils */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex>*{
+    border: 1px dashed black;
+}
+
+/* Header */
+
+
+header{
+    background-color: aqua;
+    height: 90px;
+}
+
+.header-box>*{
+    background-color: goldenrod;
+    height: 30px;
+    margin: 30px 0;
+}
+
+.left-box{
+    width: 200px;
+    padding: 5px;
+}
+
+.nav-box{
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.right-box{
+    width: 200px;
+    text-align: right;
+    padding: 5px;
 }
